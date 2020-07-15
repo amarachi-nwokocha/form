@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:  #115dcf;
+    width: 100%;
+    color: white;
+    display: inline-flex;
+    padding: 30;
+    margin-bottom: 60px;
+}
+nav li{
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 40px;
+    display: inline-flex;
+}
+.ul2{
+    margin-left: auto;
+    padding-right: 40px;
+    color:white;
+    display: inline-flex;
+    
+}
+.container{
+    display: inline-flex;
+}
+    .list li {
+        padding: 20px;
+        list-style-type: none;
+        border-bottom: 1px solid black;
+        width: 200px;
+        text-align: justify;
+        margin-left: 100px;
+    }
+    .f-2{
+        display: inline-flex;
+    }
+    section.schedule{
+        margin-right: 120px ;
+      }
+      p.schedule-header{
+        font-size :28px;
+        font-weight :bold;
+        margin-bottom: 20px ;
+        padding-left: 20px ;
+      }
+      
+      article.schedule-form{
+        background: #fff ;
+        padding: 20px ;
+        margin-bottom :20px ;
+        border-radius :3px ;
+      }
+      p.schedule-instruction{
+        font-size :18px ;
+        word-spacing: 0.5px;
+        line-height :28px;
+        color :#4c4c4c;
+        text-align :center ;
+        margin-bottom :15px ;
+      }
+      input#name,
+      select,
+      input#time{
+        background :#f2f2f2;
+        border-radius :5.6249px;
+        outline :none ;
+        border :0;
+        padding-left: 20px ;
+        margin-bottom :2rem ;
+        margin-right: 1rem ;
+      }
+      input#name,
+      select{
+        width :294.54px;
+        height: 69.82px;
+      }
+      input#time{
+        width :616px;
+        height :70px;
+      }
+      input::placeholder,
+      select,
+      input#time{
+        color:#4c4c4c;
+        opacity :0.6;
+        letter-spacing: 1px;
+        font-size :16px ;
+        line-height :21px;
+      }
+      a.schedule-submit{
+        text-decoration :none ;
+        color :#fff;
+        display :block ;
+        height: 50px;
+        width :616px;
+        background :#1e73eb;
+        font-weight :bold ;
+        font-size :24px ;
+        border-radius :3px ;
+        text-align :center ;
+        padding-top: 9px;
+        margin-left: 120px;
+      }
+      
+footer{
+        background-color:  #115dcf;
+        width: 100%;
+        color: white;
+        display: inline-flex;
+        padding: 10px;
+        padding-left: 40px;
+    font-size: 20px;
+    }
